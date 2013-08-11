@@ -11,6 +11,10 @@
 	padding: 0px;	
 }
 
+body {
+	color:#333;
+}
+
 /************************************* ARTICLE *************************************/
 article {
 	padding: 50px 0px;
@@ -26,5 +30,14 @@ header {
 }
 
 header h2{
+	padding: 0px 50px;
+}
+
+
+.home .title{
+	display: none;
+}
+
+#top .container-fluid{
 	padding: 0px 50px;
 }

@@ -39,7 +39,7 @@
 </head>
 <body <?php body_class($class); ?>>
 	<div id="top">
-		<div class="container">
+		<div class="container-fluid">
 			<?php $logo_url = esc_url(get_option('logo')); ?>
 			<a href="<?php echo home_url() ?>" class="logo">
 				<?php if(!$logo_url): ?>
