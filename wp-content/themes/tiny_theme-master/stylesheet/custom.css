@@ -1,0 +1,30 @@
+/************************************* CONTENT *************************************/
+#content {
+	background: #fdfdfd;
+}
+#main-menu{
+	padding-top: 100px;	
+}
+
+
+.container-fluid{
+	padding: 0px;	
+}
+
+/************************************* ARTICLE *************************************/
+article {
+	padding: 50px 0px;
+}
+
+.post-container {
+	padding: 0px 50px;
+}
+
+/************************************* HEADER *************************************/
+header {
+	padding: 50px 0px;
+}
+
+header h2{
+	padding: 0px 50px;
+}
