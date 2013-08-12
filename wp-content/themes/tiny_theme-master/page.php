@@ -14,31 +14,31 @@
 				<div class="row-fluid">	
 					<div class="share">
 						<ul>
-							<li>
+<!-- 							<li>
 								<a href="#" title="share on facebook">
 									<i class="icon-facebook"></i>
 								</a>
-							</li>
+							</li> -->
 							<li>
-								<a href="#" title="Tweet">
+								<a href="http://twitter.com/raulsann" title="Tweet" target="_blank">
 									<i class="icon-twitter"></i>
 								</a>
 							</li>
 							<li>
-								<a href="#" title="Post on Google plus">
+								<a href="https://plus.google.com/113853082104029695167" title="Post on Google plus" target="_blank">
 									<i class="icon-google-plus"></i>
 								</a>
 							</li>
 							<li>
-								<a href="#" title="Post on Linkedin">
+								<a href="http://www.linkedin.com/in/raulsann" title="Post on Linkedin" target="_blank">
 									<i class="icon-linkedin"></i>
 								</a>
 							</li>
-							<li>
+<!-- 							<li>
 								<a href="#" title="Pin it">
 									<i class="icon-pinterest"></i>
 								</a>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 					<?php endwhile; ?>

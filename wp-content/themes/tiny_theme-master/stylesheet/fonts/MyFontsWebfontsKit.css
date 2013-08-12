@@ -1,0 +1,18 @@
+@import url('http://fonts.googleapis.com/css?family=Merriweather:700');
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:600,400');
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+
+@import url('http://fonts.googleapis.com/css?family=Lato:300');
+
+
+ 
+/**********************************************************************
+	RALEWAY
+***********************************************************************/  
+@font-face {font-family: 'raleway';
+	src: url('./raleway/raleway_thin-webfont.eot');
+	src: url('./raleway/raleway_thin-webfont.woff') format('woff'),
+	url('./raleway/raleway_thin-webfont.ttf') format('truetype');
+}

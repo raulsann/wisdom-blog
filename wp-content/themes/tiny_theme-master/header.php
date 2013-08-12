@@ -10,6 +10,7 @@
     <!-- styles -->
     <link href="<?php echo get_template_directory_uri() ?>/stylesheet/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() ?>/stylesheet/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri() ?>/stylesheet/fonts/MyFontsWebfontsKit.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/stylesheet/custom.css" />
    
@@ -50,6 +51,9 @@
 			</a>
 			<a href="#" class="menu-btn" data-placement="left" title="Main Menu">
 				<i class="icon-reorder"></i>
+			</a>
+			<a href="http://app.wisdom.is/wiseboard" class="login-btn" >
+				Login
 			</a>
 		</div>
 	</div>

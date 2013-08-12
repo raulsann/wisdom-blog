@@ -13,16 +13,50 @@
 
 body {
 	color:#333;
+	/*font-family: "Noto Sans";*/
 }
 
 /************************************* ARTICLE *************************************/
 article {
-	padding: 50px 0px;
+	padding: 0px 0px;
 }
 
 .post-container {
-	padding: 0px 50px;
+	padding: 50px;
 }
+
+
+article h1{
+	font-size: 70px;
+	line-height: 100px;
+	font-family: "Open Sans Condensed";
+}
+
+article .avatar{
+	padding: 0px;
+	width: 130px;
+	margin: 0px;
+	vertical-align: middle;
+}
+
+article .avatar-wrapper{
+	margin-right: 20px;
+	padding: 8px;
+}
+
+article div[class^='col-'],div[class*=' col-']{
+	float: none;
+}
+
+article p{
+	margin-bottom: 25px;
+}
+
+/************************************* BACKGROUNDS *************************************/
+.green-background{
+	background-color: #6ABE86;	
+}
+
 
 /************************************* HEADER *************************************/
 header {
@@ -40,4 +74,66 @@ header h2{
 
 #top .container-fluid{
 	padding: 0px 50px;
+}
+
+#top a.login-btn {
+	width: auto;
+	margin-right: 20px;
+    height: 40px;
+    margin-top: 30px;
+	display: block;
+    float: right;
+    line-height: 36px;
+    text-align: right;
+}
+
+
+#top.tiny a.login-btn {
+    height: 40px;
+    margin-top: 5px;
+}
+
+
+#top a.logo {
+	margin-top: 5px;
+	height: 40px;
+}
+
+/************************************* FOOTER *************************************/
+footer {
+	margin-top: -50px;
+}
+a.back-to-top {
+	bottom: 10px;
+}
+
+/************************************* FORM *************************************/
+.ajax-loader{
+	margin-bottom: 0px;
+}
+
+.wpcf7{
+	display: inline-block;
+	width: 100%;
+}
+
+.wpcf7 p{
+	display: inline-block;
+}
+
+.wpcf7 .btn-primary{
+	background-color: #428bca;
+
+}
+
+.wpcf7 input[type='submit']{
+	margin-bottom: 0px;
+	margin-left: 22px;
+}
+
+.wpcf7 input[type='email']{
+	padding: 6px 10px;
+	font-size: 18px;
+	color: #333;
+	margin: 5px 0px;
 }
