@@ -99,6 +99,31 @@ header h2{
 	height: 40px;
 }
 
+
+/************************************* SINGLE POST *************************************/
+.single-post header.title h2{
+	padding: 0px 0px;
+}
+
+.single-post header.title h2{
+	font-size: 50px;
+}
+
+.single-post header.title{
+	border-bottom: none;
+	padding-bottom: 30px;
+}
+
+.single-post article{
+	padding-bottom: 20px
+}
+
+.single-post .post .share{
+	margin-bottom: 20px;
+}
+
+
+
 /************************************* FOOTER *************************************/
 footer {
 	margin-top: -50px;
