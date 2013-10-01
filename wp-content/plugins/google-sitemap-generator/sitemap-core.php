@@ -1600,6 +1600,10 @@ class GoogleSitemapGenerator {
 			@set_time_limit($this->GetOption("b_time"));
 		}
 
+		//Allow more memory.
+		@ini_set("memory_limit","64M");
+		@set_time_limit(20);
+
 		//This object saves the status information of the script directly to the database
 		$status = new GoogleSitemapGeneratorStatus();
 

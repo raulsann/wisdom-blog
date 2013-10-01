@@ -256,7 +256,7 @@ class GoogleSitemapGeneratorLoader {
 	 *
 	 * @return string The plugin basename, "sitemap" for example
 	 */
-	function GetBaseName() {
+	public static function GetBaseName() {
 		return plugin_basename(__FILE__);
 	}
 
@@ -276,7 +276,7 @@ class GoogleSitemapGeneratorLoader {
 	 *
 	 * @return string The version like 3.1.1
 	 */
-	function GetVersion() {
+	public static function GetVersion() {
 		if(!isset($GLOBALS["sm_version"])) {
 			if(!function_exists('get_plugin_data')) {
 				if(file_exists(ABSPATH . 'wp-admin/includes/plugin.php')) require_once(ABSPATH . 'wp-admin/includes/plugin.php'); //2.3+
