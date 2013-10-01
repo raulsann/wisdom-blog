@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost:8888/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.6.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.3" -->
+<!-- generated-on="October 1, 2013 8:37 am" -->
+<!-- Debug: Total comment count: 1 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://localhost:8888/</loc>
+		<lastmod>2013-08-12T15:39:34+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
